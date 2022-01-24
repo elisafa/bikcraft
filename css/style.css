@@ -41,7 +41,8 @@ a{
   padding: 16px 0px;
   position: relative;
 }
-.header-menu a:after{
+/*Criando uma animação abaixo do link quando a tela está cheia*/
+.header-menu a:after{ 
   content: "";
   display: block;
   width: 0%;
@@ -54,19 +55,17 @@ a{
   height: 2px;
   width: 100%;
 }
-
-
 @media (max-width: 800px) {
   .header-menu{
     gap: 20px;
   }
   .header-menu a {
-    background: #111;
+    background: #404040;
     padding: 12px 16px;
     border-radius: 4px;
   }
   .header-menu a:hover{
-    background: #2e2e2e ;
+    background: #404040 ;
   }
   .header a::after{
     display: none;
