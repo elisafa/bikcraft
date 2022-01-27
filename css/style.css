@@ -6,6 +6,7 @@
 
 /* home */
 @import url(./home/introducao.css);
+@import url(./home/parceiros.css);
 
 /* utilidades */
 @import url(./utilidades/componentes.css);
